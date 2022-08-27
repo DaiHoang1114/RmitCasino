@@ -2,7 +2,7 @@
 
 
 <p align="center">
-  <img width="500" src="https://imgur.com/gallery/pGiyiuw">
+  <img width="500" src="https://imgur.com/UzdYAVA">
 </p>
 
 <p align="center">"Money won is twice as sweet as money earned!"</p>
@@ -14,7 +14,7 @@
 <p align="center">
   <img src="https://imgur.com/UzdYAVA" width="238" >
   <img src="https://imgur.com/gallery/mVSQddz" width="238" >
-  <img src="https://imgur.com/gallery/qUYD9SB" width="239" >
+  <img src="https://imgur.com/a/k0Hg6rO" width="239" >
 </p>
 
  
