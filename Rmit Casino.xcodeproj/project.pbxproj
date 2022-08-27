@@ -19,6 +19,14 @@
 		F45AA29528BA1A45004FE301 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45AA29428BA1A45004FE301 /* LogoView.swift */; };
 		F45AA29728BA1A94004FE301 /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45AA29628BA1A94004FE301 /* Modifiers.swift */; };
 		F45AA29928BA1ABB004FE301 /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45AA29828BA1ABB004FE301 /* PlaySound.swift */; };
+		F45AA2B328BA20DA004FE301 /* drum-music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F45AA2AB28BA20DA004FE301 /* drum-music.mp3 */; };
+		F45AA2B428BA20DA004FE301 /* winning.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F45AA2AC28BA20DA004FE301 /* winning.mp3 */; };
+		F45AA2B528BA20DA004FE301 /* bet-chip.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F45AA2AD28BA20DA004FE301 /* bet-chip.mp3 */; };
+		F45AA2B628BA20DA004FE301 /* blink.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F45AA2AE28BA20DA004FE301 /* blink.mp3 */; };
+		F45AA2B728BA20DA004FE301 /* highscore.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F45AA2AF28BA20DA004FE301 /* highscore.mp3 */; };
+		F45AA2B828BA20DA004FE301 /* gameover.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F45AA2B028BA20DA004FE301 /* gameover.mp3 */; };
+		F45AA2B928BA20DA004FE301 /* spin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F45AA2B128BA20DA004FE301 /* spin.mp3 */; };
+		F45AA2BA28BA20DA004FE301 /* ring-up.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F45AA2B228BA20DA004FE301 /* ring-up.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +62,14 @@
 		F45AA29428BA1A45004FE301 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
 		F45AA29628BA1A94004FE301 /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
 		F45AA29828BA1ABB004FE301 /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
+		F45AA2AB28BA20DA004FE301 /* drum-music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "drum-music.mp3"; path = "../../../../TomHuynh-Rmit-Casino/RMIT-Casino/Sounds/drum-music.mp3"; sourceTree = "<group>"; };
+		F45AA2AC28BA20DA004FE301 /* winning.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = winning.mp3; path = "../../../../TomHuynh-Rmit-Casino/RMIT-Casino/Sounds/winning.mp3"; sourceTree = "<group>"; };
+		F45AA2AD28BA20DA004FE301 /* bet-chip.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "bet-chip.mp3"; path = "../../../../TomHuynh-Rmit-Casino/RMIT-Casino/Sounds/bet-chip.mp3"; sourceTree = "<group>"; };
+		F45AA2AE28BA20DA004FE301 /* blink.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = blink.mp3; path = "../../../../TomHuynh-Rmit-Casino/RMIT-Casino/Sounds/blink.mp3"; sourceTree = "<group>"; };
+		F45AA2AF28BA20DA004FE301 /* highscore.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = highscore.mp3; path = "../../../../TomHuynh-Rmit-Casino/RMIT-Casino/Sounds/highscore.mp3"; sourceTree = "<group>"; };
+		F45AA2B028BA20DA004FE301 /* gameover.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = gameover.mp3; path = "../../../../TomHuynh-Rmit-Casino/RMIT-Casino/Sounds/gameover.mp3"; sourceTree = "<group>"; };
+		F45AA2B128BA20DA004FE301 /* spin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = spin.mp3; path = "../../../../TomHuynh-Rmit-Casino/RMIT-Casino/Sounds/spin.mp3"; sourceTree = "<group>"; };
+		F45AA2B228BA20DA004FE301 /* ring-up.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "ring-up.mp3"; path = "../../../../TomHuynh-Rmit-Casino/RMIT-Casino/Sounds/ring-up.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +120,8 @@
 		F45AA26228BA1812004FE301 /* Rmit Casino */ = {
 			isa = PBXGroup;
 			children = (
+				F45AA2AA28BA20A6004FE301 /* Sounds */,
 				F45AA28F28BA19CB004FE301 /* Views */,
-				F45AA28E28BA19BF004FE301 /* Sounds */,
 				F45AA28D28BA19A7004FE301 /* Helpers */,
 				F45AA26328BA1812004FE301 /* Rmit_CasinoApp.swift */,
 				F45AA26528BA1812004FE301 /* ContentView.swift */,
@@ -149,13 +165,6 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
-		F45AA28E28BA19BF004FE301 /* Sounds */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Sounds;
-			sourceTree = "<group>";
-		};
 		F45AA28F28BA19CB004FE301 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -164,6 +173,21 @@
 				F45AA29428BA1A45004FE301 /* LogoView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		F45AA2AA28BA20A6004FE301 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				F45AA2AD28BA20DA004FE301 /* bet-chip.mp3 */,
+				F45AA2AE28BA20DA004FE301 /* blink.mp3 */,
+				F45AA2AB28BA20DA004FE301 /* drum-music.mp3 */,
+				F45AA2B028BA20DA004FE301 /* gameover.mp3 */,
+				F45AA2AF28BA20DA004FE301 /* highscore.mp3 */,
+				F45AA2B228BA20DA004FE301 /* ring-up.mp3 */,
+				F45AA2B128BA20DA004FE301 /* spin.mp3 */,
+				F45AA2AC28BA20DA004FE301 /* winning.mp3 */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,8 +294,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F45AA2B828BA20DA004FE301 /* gameover.mp3 in Resources */,
+				F45AA2BA28BA20DA004FE301 /* ring-up.mp3 in Resources */,
 				F45AA26B28BA1816004FE301 /* Preview Assets.xcassets in Resources */,
+				F45AA2B928BA20DA004FE301 /* spin.mp3 in Resources */,
 				F45AA26828BA1816004FE301 /* Assets.xcassets in Resources */,
+				F45AA2B328BA20DA004FE301 /* drum-music.mp3 in Resources */,
+				F45AA2B728BA20DA004FE301 /* highscore.mp3 in Resources */,
+				F45AA2B528BA20DA004FE301 /* bet-chip.mp3 in Resources */,
+				F45AA2B428BA20DA004FE301 /* winning.mp3 in Resources */,
+				F45AA2B628BA20DA004FE301 /* blink.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
