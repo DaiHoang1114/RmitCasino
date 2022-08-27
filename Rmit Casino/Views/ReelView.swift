@@ -12,11 +12,17 @@
 
 import SwiftUI
 
-@main
-struct RMIT_CasinoApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
+struct ReelView: View {
+    var body: some View {
+        Image("reel-blue")
+            .resizable()
+            .modifier(ReelImageModifier())
+    }
+}
+
+struct ReelView_Previews: PreviewProvider {
+    static var previews: some View {
+        ReelView()
+            .previewLayout(.sizeThatFits)
     }
 }

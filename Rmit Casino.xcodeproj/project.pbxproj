@@ -14,6 +14,11 @@
 		F45AA27528BA1816004FE301 /* Rmit_CasinoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45AA27428BA1816004FE301 /* Rmit_CasinoTests.swift */; };
 		F45AA27F28BA1816004FE301 /* Rmit_CasinoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45AA27E28BA1816004FE301 /* Rmit_CasinoUITests.swift */; };
 		F45AA28128BA1816004FE301 /* Rmit_CasinoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45AA28028BA1816004FE301 /* Rmit_CasinoUITestsLaunchTests.swift */; };
+		F45AA29128BA19FE004FE301 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45AA29028BA19FE004FE301 /* InfoView.swift */; };
+		F45AA29328BA1A21004FE301 /* ReelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45AA29228BA1A21004FE301 /* ReelView.swift */; };
+		F45AA29528BA1A45004FE301 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45AA29428BA1A45004FE301 /* LogoView.swift */; };
+		F45AA29728BA1A94004FE301 /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45AA29628BA1A94004FE301 /* Modifiers.swift */; };
+		F45AA29928BA1ABB004FE301 /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45AA29828BA1ABB004FE301 /* PlaySound.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		F45AA27A28BA1816004FE301 /* Rmit CasinoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rmit CasinoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F45AA27E28BA1816004FE301 /* Rmit_CasinoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rmit_CasinoUITests.swift; sourceTree = "<group>"; };
 		F45AA28028BA1816004FE301 /* Rmit_CasinoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rmit_CasinoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F45AA29028BA19FE004FE301 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		F45AA29228BA1A21004FE301 /* ReelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReelView.swift; sourceTree = "<group>"; };
+		F45AA29428BA1A45004FE301 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		F45AA29628BA1A94004FE301 /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
+		F45AA29828BA1ABB004FE301 /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +104,9 @@
 		F45AA26228BA1812004FE301 /* Rmit Casino */ = {
 			isa = PBXGroup;
 			children = (
+				F45AA28F28BA19CB004FE301 /* Views */,
+				F45AA28E28BA19BF004FE301 /* Sounds */,
+				F45AA28D28BA19A7004FE301 /* Helpers */,
 				F45AA26328BA1812004FE301 /* Rmit_CasinoApp.swift */,
 				F45AA26528BA1812004FE301 /* ContentView.swift */,
 				F45AA26728BA1816004FE301 /* Assets.xcassets */,
@@ -125,6 +138,32 @@
 				F45AA28028BA1816004FE301 /* Rmit_CasinoUITestsLaunchTests.swift */,
 			);
 			path = "Rmit CasinoUITests";
+			sourceTree = "<group>";
+		};
+		F45AA28D28BA19A7004FE301 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F45AA29628BA1A94004FE301 /* Modifiers.swift */,
+				F45AA29828BA1ABB004FE301 /* PlaySound.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		F45AA28E28BA19BF004FE301 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		F45AA28F28BA19CB004FE301 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F45AA29028BA19FE004FE301 /* InfoView.swift */,
+				F45AA29228BA1A21004FE301 /* ReelView.swift */,
+				F45AA29428BA1A45004FE301 /* LogoView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +296,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F45AA29528BA1A45004FE301 /* LogoView.swift in Sources */,
+				F45AA29928BA1ABB004FE301 /* PlaySound.swift in Sources */,
+				F45AA29328BA1A21004FE301 /* ReelView.swift in Sources */,
 				F45AA26628BA1812004FE301 /* ContentView.swift in Sources */,
+				F45AA29128BA19FE004FE301 /* InfoView.swift in Sources */,
+				F45AA29728BA1A94004FE301 /* Modifiers.swift in Sources */,
 				F45AA26428BA1812004FE301 /* Rmit_CasinoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
