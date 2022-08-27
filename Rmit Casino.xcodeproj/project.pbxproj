@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F45AA26428BA1812004FE301 /* Rmit_CasinoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45AA26328BA1812004FE301 /* Rmit_CasinoApp.swift */; };
+		F45AA26628BA1812004FE301 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45AA26528BA1812004FE301 /* ContentView.swift */; };
+		F45AA26828BA1816004FE301 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F45AA26728BA1816004FE301 /* Assets.xcassets */; };
+		F45AA26B28BA1816004FE301 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F45AA26A28BA1816004FE301 /* Preview Assets.xcassets */; };
+		F45AA27528BA1816004FE301 /* Rmit_CasinoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45AA27428BA1816004FE301 /* Rmit_CasinoTests.swift */; };
+		F45AA27F28BA1816004FE301 /* Rmit_CasinoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45AA27E28BA1816004FE301 /* Rmit_CasinoUITests.swift */; };
+		F45AA28128BA1816004FE301 /* Rmit_CasinoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45AA28028BA1816004FE301 /* Rmit_CasinoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F45AA27128BA1816004FE301 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F45AA25828BA1812004FE301 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F45AA25F28BA1812004FE301;
+			remoteInfo = "Rmit Casino";
+		};
+		F45AA27B28BA1816004FE301 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F45AA25828BA1812004FE301 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F45AA25F28BA1812004FE301;
+			remoteInfo = "Rmit Casino";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F45AA26028BA1812004FE301 /* Rmit Casino.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rmit Casino.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F45AA26328BA1812004FE301 /* Rmit_CasinoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rmit_CasinoApp.swift; sourceTree = "<group>"; };
+		F45AA26528BA1812004FE301 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F45AA26728BA1816004FE301 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F45AA26A28BA1816004FE301 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F45AA27028BA1816004FE301 /* Rmit CasinoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rmit CasinoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F45AA27428BA1816004FE301 /* Rmit_CasinoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rmit_CasinoTests.swift; sourceTree = "<group>"; };
+		F45AA27A28BA1816004FE301 /* Rmit CasinoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rmit CasinoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F45AA27E28BA1816004FE301 /* Rmit_CasinoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rmit_CasinoUITests.swift; sourceTree = "<group>"; };
+		F45AA28028BA1816004FE301 /* Rmit_CasinoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rmit_CasinoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F45AA25D28BA1812004FE301 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F45AA26D28BA1816004FE301 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F45AA27728BA1816004FE301 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F45AA25728BA1812004FE301 = {
+			isa = PBXGroup;
+			children = (
+				F45AA26228BA1812004FE301 /* Rmit Casino */,
+				F45AA27328BA1816004FE301 /* Rmit CasinoTests */,
+				F45AA27D28BA1816004FE301 /* Rmit CasinoUITests */,
+				F45AA26128BA1812004FE301 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F45AA26128BA1812004FE301 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F45AA26028BA1812004FE301 /* Rmit Casino.app */,
+				F45AA27028BA1816004FE301 /* Rmit CasinoTests.xctest */,
+				F45AA27A28BA1816004FE301 /* Rmit CasinoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F45AA26228BA1812004FE301 /* Rmit Casino */ = {
+			isa = PBXGroup;
+			children = (
+				F45AA26328BA1812004FE301 /* Rmit_CasinoApp.swift */,
+				F45AA26528BA1812004FE301 /* ContentView.swift */,
+				F45AA26728BA1816004FE301 /* Assets.xcassets */,
+				F45AA26928BA1816004FE301 /* Preview Content */,
+			);
+			path = "Rmit Casino";
+			sourceTree = "<group>";
+		};
+		F45AA26928BA1816004FE301 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F45AA26A28BA1816004FE301 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F45AA27328BA1816004FE301 /* Rmit CasinoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F45AA27428BA1816004FE301 /* Rmit_CasinoTests.swift */,
+			);
+			path = "Rmit CasinoTests";
+			sourceTree = "<group>";
+		};
+		F45AA27D28BA1816004FE301 /* Rmit CasinoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F45AA27E28BA1816004FE301 /* Rmit_CasinoUITests.swift */,
+				F45AA28028BA1816004FE301 /* Rmit_CasinoUITestsLaunchTests.swift */,
+			);
+			path = "Rmit CasinoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F45AA25F28BA1812004FE301 /* Rmit Casino */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F45AA28428BA1816004FE301 /* Build configuration list for PBXNativeTarget "Rmit Casino" */;
+			buildPhases = (
+				F45AA25C28BA1812004FE301 /* Sources */,
+				F45AA25D28BA1812004FE301 /* Frameworks */,
+				F45AA25E28BA1812004FE301 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rmit Casino";
+			productName = "Rmit Casino";
+			productReference = F45AA26028BA1812004FE301 /* Rmit Casino.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F45AA26F28BA1816004FE301 /* Rmit CasinoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F45AA28728BA1816004FE301 /* Build configuration list for PBXNativeTarget "Rmit CasinoTests" */;
+			buildPhases = (
+				F45AA26C28BA1816004FE301 /* Sources */,
+				F45AA26D28BA1816004FE301 /* Frameworks */,
+				F45AA26E28BA1816004FE301 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F45AA27228BA1816004FE301 /* PBXTargetDependency */,
+			);
+			name = "Rmit CasinoTests";
+			productName = "Rmit CasinoTests";
+			productReference = F45AA27028BA1816004FE301 /* Rmit CasinoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F45AA27928BA1816004FE301 /* Rmit CasinoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F45AA28A28BA1816004FE301 /* Build configuration list for PBXNativeTarget "Rmit CasinoUITests" */;
+			buildPhases = (
+				F45AA27628BA1816004FE301 /* Sources */,
+				F45AA27728BA1816004FE301 /* Frameworks */,
+				F45AA27828BA1816004FE301 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F45AA27C28BA1816004FE301 /* PBXTargetDependency */,
+			);
+			name = "Rmit CasinoUITests";
+			productName = "Rmit CasinoUITests";
+			productReference = F45AA27A28BA1816004FE301 /* Rmit CasinoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F45AA25828BA1812004FE301 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					F45AA25F28BA1812004FE301 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					F45AA26F28BA1816004FE301 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = F45AA25F28BA1812004FE301;
+					};
+					F45AA27928BA1816004FE301 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = F45AA25F28BA1812004FE301;
+					};
+				};
+			};
+			buildConfigurationList = F45AA25B28BA1812004FE301 /* Build configuration list for PBXProject "Rmit Casino" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F45AA25728BA1812004FE301;
+			productRefGroup = F45AA26128BA1812004FE301 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F45AA25F28BA1812004FE301 /* Rmit Casino */,
+				F45AA26F28BA1816004FE301 /* Rmit CasinoTests */,
+				F45AA27928BA1816004FE301 /* Rmit CasinoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F45AA25E28BA1812004FE301 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F45AA26B28BA1816004FE301 /* Preview Assets.xcassets in Resources */,
+				F45AA26828BA1816004FE301 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F45AA26E28BA1816004FE301 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F45AA27828BA1816004FE301 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F45AA25C28BA1812004FE301 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F45AA26628BA1812004FE301 /* ContentView.swift in Sources */,
+				F45AA26428BA1812004FE301 /* Rmit_CasinoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F45AA26C28BA1816004FE301 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F45AA27528BA1816004FE301 /* Rmit_CasinoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F45AA27628BA1816004FE301 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F45AA27F28BA1816004FE301 /* Rmit_CasinoUITests.swift in Sources */,
+				F45AA28128BA1816004FE301 /* Rmit_CasinoUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F45AA27228BA1816004FE301 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F45AA25F28BA1812004FE301 /* Rmit Casino */;
+			targetProxy = F45AA27128BA1816004FE301 /* PBXContainerItemProxy */;
+		};
+		F45AA27C28BA1816004FE301 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F45AA25F28BA1812004FE301 /* Rmit Casino */;
+			targetProxy = F45AA27B28BA1816004FE301 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F45AA28228BA1816004FE301 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F45AA28328BA1816004FE301 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F45AA28528BA1816004FE301 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Rmit Casino/Preview Content\"";
+				DEVELOPMENT_TEAM = 358XUGL83F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vn.edu.rmit.Rmit-Casino";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F45AA28628BA1816004FE301 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Rmit Casino/Preview Content\"";
+				DEVELOPMENT_TEAM = 358XUGL83F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vn.edu.rmit.Rmit-Casino";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F45AA28828BA1816004FE301 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 358XUGL83F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vn.edu.rmit.Rmit-CasinoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rmit Casino.app/Rmit Casino";
+			};
+			name = Debug;
+		};
+		F45AA28928BA1816004FE301 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 358XUGL83F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vn.edu.rmit.Rmit-CasinoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rmit Casino.app/Rmit Casino";
+			};
+			name = Release;
+		};
+		F45AA28B28BA1816004FE301 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 358XUGL83F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vn.edu.rmit.Rmit-CasinoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Rmit Casino";
+			};
+			name = Debug;
+		};
+		F45AA28C28BA1816004FE301 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 358XUGL83F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vn.edu.rmit.Rmit-CasinoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Rmit Casino";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F45AA25B28BA1812004FE301 /* Build configuration list for PBXProject "Rmit Casino" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F45AA28228BA1816004FE301 /* Debug */,
+				F45AA28328BA1816004FE301 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F45AA28428BA1816004FE301 /* Build configuration list for PBXNativeTarget "Rmit Casino" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F45AA28528BA1816004FE301 /* Debug */,
+				F45AA28628BA1816004FE301 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F45AA28728BA1816004FE301 /* Build configuration list for PBXNativeTarget "Rmit CasinoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F45AA28828BA1816004FE301 /* Debug */,
+				F45AA28928BA1816004FE301 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F45AA28A28BA1816004FE301 /* Build configuration list for PBXNativeTarget "Rmit CasinoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F45AA28B28BA1816004FE301 /* Debug */,
+				F45AA28C28BA1816004FE301 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F45AA25828BA1812004FE301 /* Project object */;
+}
