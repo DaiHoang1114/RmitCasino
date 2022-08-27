@@ -27,6 +27,7 @@
 		F45AA2B828BA20DA004FE301 /* gameover.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F45AA2B028BA20DA004FE301 /* gameover.mp3 */; };
 		F45AA2B928BA20DA004FE301 /* spin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F45AA2B128BA20DA004FE301 /* spin.mp3 */; };
 		F45AA2BA28BA20DA004FE301 /* ring-up.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F45AA2B228BA20DA004FE301 /* ring-up.mp3 */; };
+		F45AA2BC28BA25FD004FE301 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F45AA2BB28BA25FD004FE301 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 		F45AA2B028BA20DA004FE301 /* gameover.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = gameover.mp3; path = "../../../../TomHuynh-Rmit-Casino/RMIT-Casino/Sounds/gameover.mp3"; sourceTree = "<group>"; };
 		F45AA2B128BA20DA004FE301 /* spin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = spin.mp3; path = "../../../../TomHuynh-Rmit-Casino/RMIT-Casino/Sounds/spin.mp3"; sourceTree = "<group>"; };
 		F45AA2B228BA20DA004FE301 /* ring-up.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "ring-up.mp3"; path = "../../../../TomHuynh-Rmit-Casino/RMIT-Casino/Sounds/ring-up.mp3"; sourceTree = "<group>"; };
+		F45AA2BB28BA25FD004FE301 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = "../../TomHuynh-Rmit-Casino/RMIT-Casino/README.md"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 		F45AA25728BA1812004FE301 = {
 			isa = PBXGroup;
 			children = (
+				F45AA2BB28BA25FD004FE301 /* README.md */,
 				F45AA26228BA1812004FE301 /* Rmit Casino */,
 				F45AA27328BA1816004FE301 /* Rmit CasinoTests */,
 				F45AA27D28BA1816004FE301 /* Rmit CasinoUITests */,
@@ -303,6 +306,7 @@
 				F45AA2B728BA20DA004FE301 /* highscore.mp3 in Resources */,
 				F45AA2B528BA20DA004FE301 /* bet-chip.mp3 in Resources */,
 				F45AA2B428BA20DA004FE301 /* winning.mp3 in Resources */,
+				F45AA2BC28BA25FD004FE301 /* README.md in Resources */,
 				F45AA2B628BA20DA004FE301 /* blink.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
